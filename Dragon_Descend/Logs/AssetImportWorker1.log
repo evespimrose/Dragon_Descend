@@ -1,0 +1,997 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 8054 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/KGA/JHT/Dragon_Descend/Dragon_Descend
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58555
+Successfully changed project path to: C:/Users/KGA/JHT/Dragon_Descend/Dragon_Descend
+C:/Users/KGA/JHT/Dragon_Descend/Dragon_Descend
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26160]  Target information:
+
+Player connection [26160]  * "[IP] 192.168.0.108 [Port] 0 [Flags] 2 [Guid] 3691408234 [EditorId] 3691408234 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG1U3PM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26160] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26160] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 232.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KGA/JHT/Dragon_Descend/Dragon_Descend/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x9bc5)
+    Vendor:   Intel
+    VRAM:     4027 MB
+    Driver:   30.0.101.1273
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012602 seconds.
+- Loaded All Assemblies, in  0.557 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 361 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1339ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (265ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (784ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (480ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp-Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'TutorialWizardLoadingScreen'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in  0.706 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.426 seconds
+Domain Reload Profiling: 2131ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1427ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1264ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (1087ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.1 KB). Loaded Objects now: 4486.
+Memory consumption went from 148.8 MB to 148.6 MB.
+Total: 6.443900 ms (FindLiveObjects: 0.456800 ms CreateObjectMapping: 0.356400 ms MarkObjects: 5.341200 ms  DeleteObjects: 0.288400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 24ed384ba7fd109f3db91f0aadc14bbb -> f56edea2515deb12d4a7fa41e321940a
+  custom:scripting/monoscript/fileName/DamageNumberGUI.cs: ee565ded0f4c5a890aa4db4fd9adbdb1 -> 03de81cccbd511cc3761a9db3befbb47
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TextSettings.cs: e9611e745b4b603e699c8e63ece2893f -> c8a71f3073f51f9bd03527012c76cb7d
+  custom:scripting/monoscript/fileName/CollisionSettings.cs: 8dc41e1ccaf820ef583b3cf94dad2937 -> 32fbe4ffec26453486a952e907c59934
+  custom:scripting/monoscript/fileName/DNP_CubeSpawner.cs: 6190fd229d387ede27d55f1323168a37 -> 8f6150da43ac5f85f232070e2ac156ab
+  custom:scripting/monoscript/fileName/DNP_UIArea.cs: 636b93e2156ff801eae0fa5992a06c6c -> 85a0c0965d25efefc1da18e871f0c94c
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/DestructionSettings.cs: 8a25d309f10d5c731fa78d0956433654 -> 51883e7e2a31519f68e309f5a1fd080d
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DNP_Crosshair.cs: dc667145918e5361c0e8f535ced51b50 -> 191c4f9a05e058993ea5b22eef50c493
+  custom:scripting/monoscript/fileName/DNPUpdater.cs: a8dd34121a7103416ae6be78dbf07f71 -> 3d99cecd045bd7c9e7be17e2e512291c
+  custom:scripting/monoscript/fileName/DNP_Target.cs: ee40440532cc3a9a727fc331f2ae453d -> 3235a729ccc9a45727eef7d81a30dba5
+  custom:scripting/monoscript/fileName/DNPPreset.cs: d44bd601a7519ebf0b484cbc96d6252d -> 0d65fe10624947b0d631831e0b06e3a8
+  custom:scripting/monoscript/fileName/FollowSettings.cs: 93a61f1e42fc416e94ab80d1e07501b5 -> 5ac6c96ba581eba0beed326149443861
+  custom:scripting/monoscript/fileName/ShakeSettings.cs: 6592eacda0821fac6eab746377640715 -> 06c4df9b890f34034e9685d2d18b23da
+  custom:scripting/monoscript/fileName/DNP_SineFadeText.cs: 9c28237f618db67de5c36992c19bbc6c -> 4f1c30efdc01262c09a7c923a046aef6
+  custom:scripting/monoscript/fileName/bl_LoadingScreenWelcome.cs: 5e571cd5236cdffa8b72ec9e387ed130 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DNP_UIMove.cs: 76ba6cd1abbc0fe94c269c0d231231b9 -> 79af381de03abc4a6157219838577d97
+  custom:scripting/monoscript/fileName/DNP_2DDemo.cs: 1224352ec717f3582b7e57f95ec9ccab -> fe0aeba2afe2377ca7cd8e96c3d82815
+  custom:scripting/monoscript/fileName/ARPGSceneSelect.cs: a416f572976ae211881236ea65cf9f93 -> 29563b36f1989aeea48e5ff7e02e9d21
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PanelView.cs: 6691c2d35e5e4bfaf63d481d72d2130a -> d2deaee66b7a61da10ffeed4fd8cb200
+  custom:scripting/precompiled-assembly-types:TutorialWizardLoadingScreen: d5c76738182e7c2b547cbb5408cc4cdc -> 
+  custom:scripting/monoscript/fileName/DNP_DemoManager.cs: b5bb920d978f8d0fb4f5a5c3f261c613 -> ea5eeb72aa92b8b1e2610ca2efb70209
+  custom:scripting/monoscript/fileName/DNP_InputHandler.cs: b507d4b257fb7fc4f569307364e5ce00 -> e4ea80271f12348a4fa365687f27082d
+  custom:scripting/monoscript/fileName/ARPGFXLoopScript.cs: 4f353f43524d3f6dca3816ab6bc94742 -> 8c3dd5fbeb9625fdbcaffed72decd3b6
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DNPEditorInternal.cs: 1c2cdc315b9b84be92aebe5b02ea245c -> 9108aeed300cd41b24d3ea4bc537bed3
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CombinationSettings.cs: d10aebf6fd9b55d01bd04522b0f83f5a -> 7e63b6ab259ac2049c4e986e537f85bb
+  custom:scripting/monoscript/fileName/LoadingScreenDocumentation.cs: 48cfd3db6a885a69fdbe7de2918da067 -> 
+  custom:scripting/monoscript/fileName/PanelControl.cs: a3041f590ce3bb9956463a52f741e4df -> 02e56fdb1f44a3296f5290b5dcaa9121
+  custom:scripting/monoscript/fileName/DNP_ExampleMesh.cs: fc1e84d70ce64088fee38468ddb6e5ce -> 869e4992733773b17cdf929cffbcd6a5
+  custom:scripting/monoscript/fileName/PushSettings.cs: 2f278ca02127ee5501da4224a1ae2222 -> 8aeebd0dcd30fa8b6ef8048414a134c7
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFade.cs: 3001198f8adfe30551bc33966a1050ea -> dd6a4c32ec9bcc3bde3a207aa09ab84d
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DamageNumberMesh.cs: 23b0282aba50567ffd2abced270ffe0e -> 529c0081cc6b6c158e05b6dfd8ca01f2
+  custom:scripting/monoscript/fileName/ARPGFXPortalScript.cs: b4a4a68ae5237f07096de92b0cd9c9d4 -> 11021e7c830579b1311b26e323de9031
+  custom:scripting/monoscript/fileName/ColorByNumberSettings.cs: 8b194ab4a1523892ba2bb606a7c6c999 -> a4599ce1f72bdbd5697a086403f3305c
+  custom:scripting/monoscript/fileName/ARPGFXRotation.cs: 1d49f9bceb690bff41abc51871ab8b09 -> e19f4a8ff086093cc3712139274de6df
+  custom:scripting/monoscript/fileName/DNP_ExampleGUI.cs: 065647b2ea14084d1719b99cfdc8890e -> 64e813cc03ed25b77df0d396e01bbe83
+  custom:scripting/monoscript/fileName/ARPGFXCycler.cs: 75b91dfaed0e9a0490af3f90e8115ec2 -> 485b6369de83fbe33c4983dd10d31981
+  custom:scripting/monoscript/fileName/DistanceScalingSettings.cs: 6f87fe3ba8867ec98ca7c41b9e68dd2c -> 6ab5e82d318e682037666f7ac6fb7dbb
+  custom:scripting/monoscript/fileName/bl_SceneLoaderEditor.cs: a33754d44e33486961a270385ac87356 -> 
+  custom:scripting/monoscript/fileName/DNP_PrefabSettings.cs: 558ae52f0b21ac0d1542ab5ce697fc67 -> 38e982960e677fce7fc395f16e0fc3b2
+  custom:scripting/monoscript/fileName/DigitSettings.cs: 5b2a66912cae0506aa8d8f4535ed094d -> 878d6d96d756fd1993dce4e87e4d4d85
+  custom:scripting/monoscript/fileName/DNPPresetEditor.cs: 74f95645f08456e13e8a0a30d869bce9 -> 4edd06621af802c181805de5b6bbaebe
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScaleByNumberSettings.cs: c9161626d9a52da86105765a9bd1c3ad -> fe614b46e2562a73939f0c6902691b47
+  custom:scripting/monoscript/fileName/bl_LoadingScreenStartUp.cs: 9a686653fc5e41793d4d598b6e71af8a -> 
+  custom:scripting/monoscript/fileName/DNP_GUI.cs: aad4f934d18fad1aee0c11370aabc781 -> acbf0381e09ca85db47ffd1fa807589d
+  custom:scripting/precompiled-assembly-types:LoadingScreen.Misc: ba4fe17699a0fd3c6f9a81e743c3f517 -> 73f28738bf6e1772e4355ea00ccfdeb5
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFlicker.cs: 22e05582cef3dd6d407c3c16c690b69e -> ae72a585a3c79bcd4010f297b9c91065
+  custom:scripting/monoscript/fileName/DamageNumber.cs: 36af1f65a0962ce517bea0c83ba40261 -> 066120db5d26f7ab2d2123f2c6b86317
+  custom:scripting/monoscript/fileName/DNP_Camera.cs: 620a92f9900dc3c37cb556b65bc86aca -> f9739f8b6c1e2bada480be31273abad9
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManagerEditor.cs: daa6a4dd67f89478b7dbba2b5f7086ae -> 
+  custom:scripting/monoscript/fileName/DNP_FallingCube.cs: 1fd7671d79dc1789595f66788ce5c38f -> 33a1664d587aef40fe3ba969a9e4eb0f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DNP_CubeHighlight.cs: dcd18b1c118bab8881d9eb88b1997497 -> 7c7a7609e750ed81f54059f358983357
+  custom:scripting/monoscript/fileName/DNP_CursorHint.cs: 5ad5cb9325bb4b128b488ed541bd7407 -> 66dcf2b7b5d6c905d05efec071adca5c
+  custom:scripting/monoscript/fileName/LerpSettings.cs: b112700015cb67413c7e4ed405570d65 -> c75356c0fd2141a282bc870417bfa856
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 0fb6fe9a7f13ab90743717a4c2788276 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 358709ee2721fd1d1c4e1abe5f8b13ba -> b5d8401a66e68c5d89f9219e0054292c
+  custom:scripting/monoscript/fileName/VelocitySettings.cs: 86906257e49e77512b5fc858cc429c07 -> 6703e3991e9f974727cd8eb5b1c752f1
+  custom:scripting/monoscript/fileName/DamageNumberEditor.cs: bb82a25961a9dc04e2d36c6f433ca267 -> 7a64b3b9b91604a58235fd542aea7f37
+========================================================================
+Received Prepare
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Caller must complete domain reload
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.897 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.713 seconds
+Domain Reload Profiling: 2609ms
+	BeginReloadAssembly (1495ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (1215ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Script is not up to date after domain reload: guid(0015164b45b01e24499396ed322983f5) path("Assets/Hovl Studio/HSFiles/Scripts/For demo scenes/HS_DemoShooting.cs") state(2)
+Script is not up to date after domain reload: guid(15f64663d9bea784b8060d7fbcdc2b23) path("Assets/Hovl Studio/HSFiles/Scripts/HS_CallBackParent.cs") state(2)
+Script is not up to date after domain reload: guid(605a456cfc02f6b499a64717539a27e8) path("Assets/Hovl Studio/HSFiles/Scripts/HS_ProjectileMover.cs") state(2)
+Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (213.2 KB). Loaded Objects now: 4491.
+Memory consumption went from 144.7 MB to 144.5 MB.
+Total: 5.240500 ms (FindLiveObjects: 0.487300 ms CreateObjectMapping: 0.385800 ms MarkObjects: 4.122900 ms  DeleteObjects: 0.243400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 24ed384ba7fd109f3db91f0aadc14bbb -> f56edea2515deb12d4a7fa41e321940a
+  custom:scripting/monoscript/fileName/DamageNumberGUI.cs: ee565ded0f4c5a890aa4db4fd9adbdb1 -> 03de81cccbd511cc3761a9db3befbb47
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TextSettings.cs: e9611e745b4b603e699c8e63ece2893f -> c8a71f3073f51f9bd03527012c76cb7d
+  custom:scripting/monoscript/fileName/CollisionSettings.cs: 8dc41e1ccaf820ef583b3cf94dad2937 -> 32fbe4ffec26453486a952e907c59934
+  custom:scripting/monoscript/fileName/DNP_CubeSpawner.cs: 6190fd229d387ede27d55f1323168a37 -> 8f6150da43ac5f85f232070e2ac156ab
+  custom:scripting/monoscript/fileName/DNP_UIArea.cs: 636b93e2156ff801eae0fa5992a06c6c -> 85a0c0965d25efefc1da18e871f0c94c
+  custom:scripting/monoscript/fileName/bl_TransformRotator.cs: 203b5af65fddaf3db9bf82fff4a8e7de -> a9740e5c4b66ee2442b060bb75249c44
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/bl_ButtonSceneLoad.cs: 91d8247966c7b24367554f46b020ca57 -> a67ff49570ae8d4b915bfb8b782fa39a
+  custom:scripting/monoscript/fileName/DestructionSettings.cs: 8a25d309f10d5c731fa78d0956433654 -> 51883e7e2a31519f68e309f5a1fd080d
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DNP_Crosshair.cs: dc667145918e5361c0e8f535ced51b50 -> 191c4f9a05e058993ea5b22eef50c493
+  custom:scripting/monoscript/fileName/bl_SceneLoaderUtils.cs: a53c743ec2e29407a4f3ed30e1eeb5c8 -> 83f0bb401289771b337ca22ddd9f392e
+  custom:scripting/monoscript/fileName/bl_RawImageOffset.cs: 55d092ca669693e90b3227df17d229dc -> b2412f0feaa3c72712046d318cfd4717
+  custom:scripting/monoscript/fileName/bl_DemoLoadedScene.cs: 8fc3931d6b8b8e6d42bba572fd7d0c49 -> f1715544fc7e8f2ad9db3d12d921d68f
+  custom:scripting/monoscript/fileName/DNPUpdater.cs: a8dd34121a7103416ae6be78dbf07f71 -> 3d99cecd045bd7c9e7be17e2e512291c
+  custom:scripting/monoscript/fileName/DNP_Target.cs: ee40440532cc3a9a727fc331f2ae453d -> 3235a729ccc9a45727eef7d81a30dba5
+  custom:scripting/monoscript/fileName/DNPPreset.cs: d44bd601a7519ebf0b484cbc96d6252d -> 0d65fe10624947b0d631831e0b06e3a8
+  custom:scripting/monoscript/fileName/FollowSettings.cs: 93a61f1e42fc416e94ab80d1e07501b5 -> 5ac6c96ba581eba0beed326149443861
+  custom:scripting/monoscript/fileName/bl_SceneLoaderCanvas.cs: 6a6cf81fe9104b531ed84e54a65210af -> 2e8e96bcc502da4d6aef7c9d81d565fa
+  custom:scripting/monoscript/fileName/ShakeSettings.cs: 6592eacda0821fac6eab746377640715 -> 06c4df9b890f34034e9685d2d18b23da
+  custom:scripting/monoscript/fileName/DNP_SineFadeText.cs: 9c28237f618db67de5c36992c19bbc6c -> 4f1c30efdc01262c09a7c923a046aef6
+  custom:scripting/monoscript/fileName/bl_LoadingScreenWelcome.cs: 57dbf45333b71d5835bee21d8b315f6f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DNP_UIMove.cs: 76ba6cd1abbc0fe94c269c0d231231b9 -> 79af381de03abc4a6157219838577d97
+  custom:scripting/monoscript/fileName/DNP_2DDemo.cs: 1224352ec717f3582b7e57f95ec9ccab -> fe0aeba2afe2377ca7cd8e96c3d82815
+  custom:scripting/monoscript/fileName/ARPGSceneSelect.cs: a416f572976ae211881236ea65cf9f93 -> 29563b36f1989aeea48e5ff7e02e9d21
+  custom:scripting/monoscript/fileName/bl_LoadingScreenUI.cs: 6a5b989fe1b95fdf9a1b2af0fd156b77 -> 3c0017d2bb29063ce7b7020fb699526b
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PanelView.cs: 6691c2d35e5e4bfaf63d481d72d2130a -> d2deaee66b7a61da10ffeed4fd8cb200
+  custom:scripting/precompiled-assembly-types:TutorialWizardLoadingScreen: d5c76738182e7c2b547cbb5408cc4cdc -> 
+  custom:scripting/monoscript/fileName/bl_ImageClamp.cs: 587c743b137fd7d5f5bf765863c3322a -> c06a78ffa74b971e9366656b1dae85f3
+  custom:scripting/monoscript/fileName/DNP_DemoManager.cs: b5bb920d978f8d0fb4f5a5c3f261c613 -> ea5eeb72aa92b8b1e2610ca2efb70209
+  custom:scripting/monoscript/fileName/DNP_InputHandler.cs: b507d4b257fb7fc4f569307364e5ce00 -> e4ea80271f12348a4fa365687f27082d
+  custom:scripting/monoscript/fileName/bl_UIGradient.cs: 2e4dca0805e6c20489e3ee07db056ec0 -> 8da678a508be4b686c3315d821b7855b
+  custom:scripting/monoscript/fileName/ARPGFXLoopScript.cs: 4f353f43524d3f6dca3816ab6bc94742 -> 8c3dd5fbeb9625fdbcaffed72decd3b6
+  custom:scripting/monoscript/fileName/bl_SceneLoaderInfo.cs: 4877b560c77f5afe44b4458405291a86 -> 7ff87134f31ae31d21fcbffbec5ae144
+  custom:scripting/monoscript/fileName/bl_SceneLoader.cs: 7f7cd68669d99e147fb8d6040cf775f8 -> 76b7b215df6c61d919eaa8a7c4dbc329
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DNPEditorInternal.cs: 1c2cdc315b9b84be92aebe5b02ea245c -> 9108aeed300cd41b24d3ea4bc537bed3
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CombinationSettings.cs: d10aebf6fd9b55d01bd04522b0f83f5a -> 7e63b6ab259ac2049c4e986e537f85bb
+  custom:scripting/monoscript/fileName/LoadingScreenDocumentation.cs: 463abbf67759717cd3517cbc9551749d -> 
+  custom:scripting/monoscript/fileName/PanelControl.cs: a3041f590ce3bb9956463a52f741e4df -> 02e56fdb1f44a3296f5290b5dcaa9121
+  custom:scripting/monoscript/fileName/DNP_ExampleMesh.cs: fc1e84d70ce64088fee38468ddb6e5ce -> 869e4992733773b17cdf929cffbcd6a5
+  custom:scripting/monoscript/fileName/PushSettings.cs: 2f278ca02127ee5501da4224a1ae2222 -> 8aeebd0dcd30fa8b6ef8048414a134c7
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFade.cs: 3001198f8adfe30551bc33966a1050ea -> dd6a4c32ec9bcc3bde3a207aa09ab84d
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DamageNumberMesh.cs: 23b0282aba50567ffd2abced270ffe0e -> 529c0081cc6b6c158e05b6dfd8ca01f2
+  custom:scripting/monoscript/fileName/ARPGFXPortalScript.cs: b4a4a68ae5237f07096de92b0cd9c9d4 -> 11021e7c830579b1311b26e323de9031
+  custom:scripting/monoscript/fileName/ColorByNumberSettings.cs: 8b194ab4a1523892ba2bb606a7c6c999 -> a4599ce1f72bdbd5697a086403f3305c
+  custom:scripting/monoscript/fileName/ARPGFXRotation.cs: 1d49f9bceb690bff41abc51871ab8b09 -> e19f4a8ff086093cc3712139274de6df
+  custom:scripting/monoscript/fileName/DNP_ExampleGUI.cs: 065647b2ea14084d1719b99cfdc8890e -> 64e813cc03ed25b77df0d396e01bbe83
+  custom:scripting/monoscript/fileName/ARPGFXCycler.cs: 75b91dfaed0e9a0490af3f90e8115ec2 -> 485b6369de83fbe33c4983dd10d31981
+  custom:scripting/monoscript/fileName/DistanceScalingSettings.cs: 6f87fe3ba8867ec98ca7c41b9e68dd2c -> 6ab5e82d318e682037666f7ac6fb7dbb
+  custom:scripting/monoscript/fileName/bl_SceneLoaderEditor.cs: ca1a0e7f63caa7bf6436dc59a2dfe445 -> 
+  custom:scripting/monoscript/fileName/DNP_PrefabSettings.cs: 558ae52f0b21ac0d1542ab5ce697fc67 -> 38e982960e677fce7fc395f16e0fc3b2
+  custom:scripting/monoscript/fileName/DigitSettings.cs: 5b2a66912cae0506aa8d8f4535ed094d -> 878d6d96d756fd1993dce4e87e4d4d85
+  custom:scripting/monoscript/fileName/DNPPresetEditor.cs: 74f95645f08456e13e8a0a30d869bce9 -> 4edd06621af802c181805de5b6bbaebe
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScaleByNumberSettings.cs: c9161626d9a52da86105765a9bd1c3ad -> fe614b46e2562a73939f0c6902691b47
+  custom:scripting/monoscript/fileName/bl_LoadingScreenStartUp.cs: ea306597acc8300ccf45bb80a2996ffb -> 
+  custom:scripting/monoscript/fileName/DNP_GUI.cs: aad4f934d18fad1aee0c11370aabc781 -> acbf0381e09ca85db47ffd1fa807589d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFlicker.cs: 22e05582cef3dd6d407c3c16c690b69e -> ae72a585a3c79bcd4010f297b9c91065
+  custom:scripting/monoscript/fileName/DamageNumber.cs: 36af1f65a0962ce517bea0c83ba40261 -> 066120db5d26f7ab2d2123f2c6b86317
+  custom:scripting/monoscript/fileName/DNP_Camera.cs: 620a92f9900dc3c37cb556b65bc86aca -> f9739f8b6c1e2bada480be31273abad9
+  custom:scripting/monoscript/fileName/bl_LoadingScreenExample.cs: eea0eedf7d80714aeeed2ce11885680c -> 194d104fed21b546d6dd4458775c7c56
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManagerEditor.cs: 2c2130d24b4611b87c034f9da5d9800a -> 
+  custom:scripting/monoscript/fileName/DNP_FallingCube.cs: 1fd7671d79dc1789595f66788ce5c38f -> 33a1664d587aef40fe3ba969a9e4eb0f
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManager.cs: 6523eaef50d1bfdc4e8308942d2a3624 -> 596baee82b2812b166e437a4015ad647
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DNP_CubeHighlight.cs: dcd18b1c118bab8881d9eb88b1997497 -> 7c7a7609e750ed81f54059f358983357
+  custom:scripting/monoscript/fileName/DNP_CursorHint.cs: 5ad5cb9325bb4b128b488ed541bd7407 -> 66dcf2b7b5d6c905d05efec071adca5c
+  custom:scripting/monoscript/fileName/LerpSettings.cs: b112700015cb67413c7e4ed405570d65 -> c75356c0fd2141a282bc870417bfa856
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 577cc7c46dcf4ada5d537aea83b27441 -> 
+  custom:scripting/monoscript/fileName/bl_TriggerLoad.cs: 57cc4106e57ed12828900470bfc59ca9 -> 6588ad6a18b2539b00efe29b864bbaed
+  custom:scripting/monoscript/fileName/VelocitySettings.cs: 86906257e49e77512b5fc858cc429c07 -> 6703e3991e9f974727cd8eb5b1c752f1
+  custom:scripting/monoscript/fileName/DamageNumberEditor.cs: bb82a25961a9dc04e2d36c6f433ca267 -> 7a64b3b9b91604a58235fd542aea7f37
+========================================================================
+Received Prepare
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Caller must complete domain reload
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.442 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.937 seconds
+Domain Reload Profiling: 10374ms
+	BeginReloadAssembly (528ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (6752ms)
+		LoadAssemblies (7141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 64.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (477.7 KB). Loaded Objects now: 4498.
+Memory consumption went from 146.2 MB to 145.7 MB.
+Total: 7.128100 ms (FindLiveObjects: 0.702400 ms CreateObjectMapping: 0.427600 ms MarkObjects: 5.551600 ms  DeleteObjects: 0.445000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 24ed384ba7fd109f3db91f0aadc14bbb -> f56edea2515deb12d4a7fa41e321940a
+  custom:scripting/monoscript/fileName/DamageNumberGUI.cs: ee565ded0f4c5a890aa4db4fd9adbdb1 -> 03de81cccbd511cc3761a9db3befbb47
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TextSettings.cs: e9611e745b4b603e699c8e63ece2893f -> c8a71f3073f51f9bd03527012c76cb7d
+  custom:scripting/monoscript/fileName/CollisionSettings.cs: 8dc41e1ccaf820ef583b3cf94dad2937 -> 32fbe4ffec26453486a952e907c59934
+  custom:scripting/monoscript/fileName/DNP_CubeSpawner.cs: 6190fd229d387ede27d55f1323168a37 -> 8f6150da43ac5f85f232070e2ac156ab
+  custom:scripting/monoscript/fileName/DNP_UIArea.cs: 636b93e2156ff801eae0fa5992a06c6c -> 85a0c0965d25efefc1da18e871f0c94c
+  custom:scripting/monoscript/fileName/bl_TransformRotator.cs: 203b5af65fddaf3db9bf82fff4a8e7de -> a9740e5c4b66ee2442b060bb75249c44
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/HS_DemoShooting.cs: acd8554a677b36ee4dec307a837c2689 -> 
+  custom:scripting/monoscript/fileName/bl_ButtonSceneLoad.cs: 91d8247966c7b24367554f46b020ca57 -> a67ff49570ae8d4b915bfb8b782fa39a
+  custom:scripting/monoscript/fileName/DestructionSettings.cs: 8a25d309f10d5c731fa78d0956433654 -> 51883e7e2a31519f68e309f5a1fd080d
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DNP_Crosshair.cs: dc667145918e5361c0e8f535ced51b50 -> 191c4f9a05e058993ea5b22eef50c493
+  custom:scripting/monoscript/fileName/bl_SceneLoaderUtils.cs: a53c743ec2e29407a4f3ed30e1eeb5c8 -> 83f0bb401289771b337ca22ddd9f392e
+  custom:scripting/monoscript/fileName/bl_RawImageOffset.cs: 55d092ca669693e90b3227df17d229dc -> b2412f0feaa3c72712046d318cfd4717
+  custom:scripting/monoscript/fileName/bl_DemoLoadedScene.cs: 8fc3931d6b8b8e6d42bba572fd7d0c49 -> f1715544fc7e8f2ad9db3d12d921d68f
+  custom:scripting/monoscript/fileName/DNPUpdater.cs: a8dd34121a7103416ae6be78dbf07f71 -> 3d99cecd045bd7c9e7be17e2e512291c
+  custom:scripting/monoscript/fileName/DNP_Target.cs: ee40440532cc3a9a727fc331f2ae453d -> 3235a729ccc9a45727eef7d81a30dba5
+  custom:scripting/monoscript/fileName/DNPPreset.cs: d44bd601a7519ebf0b484cbc96d6252d -> 0d65fe10624947b0d631831e0b06e3a8
+  custom:scripting/monoscript/fileName/FollowSettings.cs: 93a61f1e42fc416e94ab80d1e07501b5 -> 5ac6c96ba581eba0beed326149443861
+  custom:scripting/monoscript/fileName/bl_SceneLoaderCanvas.cs: 6a6cf81fe9104b531ed84e54a65210af -> 2e8e96bcc502da4d6aef7c9d81d565fa
+  custom:scripting/monoscript/fileName/ShakeSettings.cs: 6592eacda0821fac6eab746377640715 -> 06c4df9b890f34034e9685d2d18b23da
+  custom:scripting/monoscript/fileName/DNP_SineFadeText.cs: 9c28237f618db67de5c36992c19bbc6c -> 4f1c30efdc01262c09a7c923a046aef6
+  custom:scripting/monoscript/fileName/bl_LoadingScreenWelcome.cs: 57dbf45333b71d5835bee21d8b315f6f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DNP_UIMove.cs: 76ba6cd1abbc0fe94c269c0d231231b9 -> 79af381de03abc4a6157219838577d97
+  custom:scripting/monoscript/fileName/DNP_2DDemo.cs: 1224352ec717f3582b7e57f95ec9ccab -> fe0aeba2afe2377ca7cd8e96c3d82815
+  custom:scripting/monoscript/fileName/ARPGSceneSelect.cs: a416f572976ae211881236ea65cf9f93 -> 29563b36f1989aeea48e5ff7e02e9d21
+  custom:scripting/monoscript/fileName/bl_LoadingScreenUI.cs: 6a5b989fe1b95fdf9a1b2af0fd156b77 -> 3c0017d2bb29063ce7b7020fb699526b
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PanelView.cs: 6691c2d35e5e4bfaf63d481d72d2130a -> d2deaee66b7a61da10ffeed4fd8cb200
+  custom:scripting/precompiled-assembly-types:TutorialWizardLoadingScreen: d5c76738182e7c2b547cbb5408cc4cdc -> 
+  custom:scripting/monoscript/fileName/bl_ImageClamp.cs: 587c743b137fd7d5f5bf765863c3322a -> c06a78ffa74b971e9366656b1dae85f3
+  custom:scripting/monoscript/fileName/DNP_DemoManager.cs: b5bb920d978f8d0fb4f5a5c3f261c613 -> ea5eeb72aa92b8b1e2610ca2efb70209
+  custom:scripting/monoscript/fileName/DNP_InputHandler.cs: b507d4b257fb7fc4f569307364e5ce00 -> e4ea80271f12348a4fa365687f27082d
+  custom:scripting/monoscript/fileName/bl_UIGradient.cs: 2e4dca0805e6c20489e3ee07db056ec0 -> 8da678a508be4b686c3315d821b7855b
+  custom:scripting/monoscript/fileName/ARPGFXLoopScript.cs: 4f353f43524d3f6dca3816ab6bc94742 -> 8c3dd5fbeb9625fdbcaffed72decd3b6
+  custom:scripting/monoscript/fileName/bl_SceneLoaderInfo.cs: 4877b560c77f5afe44b4458405291a86 -> 7ff87134f31ae31d21fcbffbec5ae144
+  custom:scripting/monoscript/fileName/bl_SceneLoader.cs: 7f7cd68669d99e147fb8d6040cf775f8 -> 76b7b215df6c61d919eaa8a7c4dbc329
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DNPEditorInternal.cs: 1c2cdc315b9b84be92aebe5b02ea245c -> 9108aeed300cd41b24d3ea4bc537bed3
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CombinationSettings.cs: d10aebf6fd9b55d01bd04522b0f83f5a -> 7e63b6ab259ac2049c4e986e537f85bb
+  custom:scripting/monoscript/fileName/LoadingScreenDocumentation.cs: 463abbf67759717cd3517cbc9551749d -> 
+  custom:scripting/monoscript/fileName/PanelControl.cs: a3041f590ce3bb9956463a52f741e4df -> 02e56fdb1f44a3296f5290b5dcaa9121
+  custom:scripting/monoscript/fileName/DNP_ExampleMesh.cs: fc1e84d70ce64088fee38468ddb6e5ce -> 869e4992733773b17cdf929cffbcd6a5
+  custom:scripting/monoscript/fileName/PushSettings.cs: 2f278ca02127ee5501da4224a1ae2222 -> 8aeebd0dcd30fa8b6ef8048414a134c7
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFade.cs: 3001198f8adfe30551bc33966a1050ea -> dd6a4c32ec9bcc3bde3a207aa09ab84d
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DamageNumberMesh.cs: 23b0282aba50567ffd2abced270ffe0e -> 529c0081cc6b6c158e05b6dfd8ca01f2
+  custom:scripting/monoscript/fileName/ARPGFXPortalScript.cs: b4a4a68ae5237f07096de92b0cd9c9d4 -> 11021e7c830579b1311b26e323de9031
+  custom:scripting/monoscript/fileName/ColorByNumberSettings.cs: 8b194ab4a1523892ba2bb606a7c6c999 -> a4599ce1f72bdbd5697a086403f3305c
+  custom:scripting/monoscript/fileName/HS_CallBackParent.cs: 908665d77e3c299bc7d1ff9dc1a0d75c -> 
+  custom:scripting/monoscript/fileName/ARPGFXRotation.cs: 1d49f9bceb690bff41abc51871ab8b09 -> e19f4a8ff086093cc3712139274de6df
+  custom:scripting/monoscript/fileName/DNP_ExampleGUI.cs: 065647b2ea14084d1719b99cfdc8890e -> 64e813cc03ed25b77df0d396e01bbe83
+  custom:scripting/monoscript/fileName/ARPGFXCycler.cs: 75b91dfaed0e9a0490af3f90e8115ec2 -> 485b6369de83fbe33c4983dd10d31981
+  custom:scripting/monoscript/fileName/DistanceScalingSettings.cs: 6f87fe3ba8867ec98ca7c41b9e68dd2c -> 6ab5e82d318e682037666f7ac6fb7dbb
+  custom:scripting/monoscript/fileName/bl_SceneLoaderEditor.cs: ca1a0e7f63caa7bf6436dc59a2dfe445 -> 
+  custom:scripting/monoscript/fileName/DNP_PrefabSettings.cs: 558ae52f0b21ac0d1542ab5ce697fc67 -> 38e982960e677fce7fc395f16e0fc3b2
+  custom:scripting/monoscript/fileName/DigitSettings.cs: 5b2a66912cae0506aa8d8f4535ed094d -> 878d6d96d756fd1993dce4e87e4d4d85
+  custom:scripting/monoscript/fileName/DNPPresetEditor.cs: 74f95645f08456e13e8a0a30d869bce9 -> 4edd06621af802c181805de5b6bbaebe
+  custom:scripting/monoscript/fileName/HS_ProjectileMover.cs: f04b8f2f2258aa64d0105b029d35aab9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScaleByNumberSettings.cs: c9161626d9a52da86105765a9bd1c3ad -> fe614b46e2562a73939f0c6902691b47
+  custom:scripting/monoscript/fileName/bl_LoadingScreenStartUp.cs: ea306597acc8300ccf45bb80a2996ffb -> 
+  custom:scripting/monoscript/fileName/DNP_GUI.cs: aad4f934d18fad1aee0c11370aabc781 -> acbf0381e09ca85db47ffd1fa807589d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFlicker.cs: 22e05582cef3dd6d407c3c16c690b69e -> ae72a585a3c79bcd4010f297b9c91065
+  custom:scripting/monoscript/fileName/DamageNumber.cs: 36af1f65a0962ce517bea0c83ba40261 -> 066120db5d26f7ab2d2123f2c6b86317
+  custom:scripting/monoscript/fileName/DNP_Camera.cs: 620a92f9900dc3c37cb556b65bc86aca -> f9739f8b6c1e2bada480be31273abad9
+  custom:scripting/monoscript/fileName/bl_LoadingScreenExample.cs: eea0eedf7d80714aeeed2ce11885680c -> 194d104fed21b546d6dd4458775c7c56
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManagerEditor.cs: 2c2130d24b4611b87c034f9da5d9800a -> 
+  custom:scripting/monoscript/fileName/DNP_FallingCube.cs: 1fd7671d79dc1789595f66788ce5c38f -> 33a1664d587aef40fe3ba969a9e4eb0f
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManager.cs: 6523eaef50d1bfdc4e8308942d2a3624 -> 596baee82b2812b166e437a4015ad647
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DNP_CubeHighlight.cs: dcd18b1c118bab8881d9eb88b1997497 -> 7c7a7609e750ed81f54059f358983357
+  custom:scripting/monoscript/fileName/DNP_CursorHint.cs: 5ad5cb9325bb4b128b488ed541bd7407 -> 66dcf2b7b5d6c905d05efec071adca5c
+  custom:scripting/monoscript/fileName/LerpSettings.cs: b112700015cb67413c7e4ed405570d65 -> c75356c0fd2141a282bc870417bfa856
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 577cc7c46dcf4ada5d537aea83b27441 -> 
+  custom:scripting/monoscript/fileName/bl_TriggerLoad.cs: 57cc4106e57ed12828900470bfc59ca9 -> 6588ad6a18b2539b00efe29b864bbaed
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: f517bcf93e93e05d1d1c93f9213fea39 -> b5d8401a66e68c5d89f9219e0054292c
+  custom:scripting/monoscript/fileName/VelocitySettings.cs: 86906257e49e77512b5fc858cc429c07 -> 6703e3991e9f974727cd8eb5b1c752f1
+  custom:scripting/monoscript/fileName/DamageNumberEditor.cs: bb82a25961a9dc04e2d36c6f433ca267 -> 7a64b3b9b91604a58235fd542aea7f37
+========================================================================
+Received Import Request.
+  Time since last request: 535204.235968 seconds.
+  path: Assets/5 Resources/Loading Screen/Content/Resources/SceneLoaderManager.asset
+  artifactKey: Guid(acaafd0d76fea3c48bf84a8ec53ef517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/5 Resources/Loading Screen/Content/Resources/SceneLoaderManager.asset using Guid(acaafd0d76fea3c48bf84a8ec53ef517) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bd5f1bc069e2c43093b12ad9e3ec94c') in 0.092934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Caller must complete domain reload
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.638 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 1644ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1010ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (477.8 KB). Loaded Objects now: 4503.
+Memory consumption went from 145.9 MB to 145.5 MB.
+Total: 3.453100 ms (FindLiveObjects: 0.444200 ms CreateObjectMapping: 0.341100 ms MarkObjects: 2.397200 ms  DeleteObjects: 0.269800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 24ed384ba7fd109f3db91f0aadc14bbb -> f56edea2515deb12d4a7fa41e321940a
+  custom:scripting/monoscript/fileName/DamageNumberGUI.cs: ee565ded0f4c5a890aa4db4fd9adbdb1 -> 03de81cccbd511cc3761a9db3befbb47
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TextSettings.cs: e9611e745b4b603e699c8e63ece2893f -> c8a71f3073f51f9bd03527012c76cb7d
+  custom:scripting/monoscript/fileName/CollisionSettings.cs: 8dc41e1ccaf820ef583b3cf94dad2937 -> 32fbe4ffec26453486a952e907c59934
+  custom:scripting/monoscript/fileName/DNP_CubeSpawner.cs: 6190fd229d387ede27d55f1323168a37 -> 8f6150da43ac5f85f232070e2ac156ab
+  custom:scripting/monoscript/fileName/DNP_UIArea.cs: 636b93e2156ff801eae0fa5992a06c6c -> 85a0c0965d25efefc1da18e871f0c94c
+  custom:scripting/monoscript/fileName/bl_TransformRotator.cs: 203b5af65fddaf3db9bf82fff4a8e7de -> a9740e5c4b66ee2442b060bb75249c44
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/HS_DemoShooting.cs: 483bd5ad5ae39aff55b68a7a7f3f6e0b -> 
+  custom:scripting/monoscript/fileName/bl_ButtonSceneLoad.cs: 91d8247966c7b24367554f46b020ca57 -> a67ff49570ae8d4b915bfb8b782fa39a
+  custom:scripting/monoscript/fileName/DestructionSettings.cs: 8a25d309f10d5c731fa78d0956433654 -> 51883e7e2a31519f68e309f5a1fd080d
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DNP_Crosshair.cs: dc667145918e5361c0e8f535ced51b50 -> 191c4f9a05e058993ea5b22eef50c493
+  custom:scripting/monoscript/fileName/bl_SceneLoaderUtils.cs: a53c743ec2e29407a4f3ed30e1eeb5c8 -> 83f0bb401289771b337ca22ddd9f392e
+  custom:scripting/monoscript/fileName/bl_RawImageOffset.cs: 55d092ca669693e90b3227df17d229dc -> b2412f0feaa3c72712046d318cfd4717
+  custom:scripting/monoscript/fileName/bl_DemoLoadedScene.cs: 8fc3931d6b8b8e6d42bba572fd7d0c49 -> f1715544fc7e8f2ad9db3d12d921d68f
+  custom:scripting/monoscript/fileName/DNPUpdater.cs: a8dd34121a7103416ae6be78dbf07f71 -> 3d99cecd045bd7c9e7be17e2e512291c
+  custom:scripting/monoscript/fileName/DNP_Target.cs: ee40440532cc3a9a727fc331f2ae453d -> 3235a729ccc9a45727eef7d81a30dba5
+  custom:scripting/monoscript/fileName/DNPPreset.cs: d44bd601a7519ebf0b484cbc96d6252d -> 0d65fe10624947b0d631831e0b06e3a8
+  custom:scripting/monoscript/fileName/FollowSettings.cs: 93a61f1e42fc416e94ab80d1e07501b5 -> 5ac6c96ba581eba0beed326149443861
+  custom:scripting/monoscript/fileName/bl_SceneLoaderCanvas.cs: 6a6cf81fe9104b531ed84e54a65210af -> 2e8e96bcc502da4d6aef7c9d81d565fa
+  custom:scripting/monoscript/fileName/ShakeSettings.cs: 6592eacda0821fac6eab746377640715 -> 06c4df9b890f34034e9685d2d18b23da
+  custom:scripting/monoscript/fileName/DNP_SineFadeText.cs: 9c28237f618db67de5c36992c19bbc6c -> 4f1c30efdc01262c09a7c923a046aef6
+  custom:scripting/monoscript/fileName/bl_LoadingScreenWelcome.cs: 57dbf45333b71d5835bee21d8b315f6f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DNP_UIMove.cs: 76ba6cd1abbc0fe94c269c0d231231b9 -> 79af381de03abc4a6157219838577d97
+  custom:scripting/monoscript/fileName/DNP_2DDemo.cs: 1224352ec717f3582b7e57f95ec9ccab -> fe0aeba2afe2377ca7cd8e96c3d82815
+  custom:scripting/monoscript/fileName/ARPGSceneSelect.cs: a416f572976ae211881236ea65cf9f93 -> 29563b36f1989aeea48e5ff7e02e9d21
+  custom:scripting/monoscript/fileName/bl_LoadingScreenUI.cs: 6a5b989fe1b95fdf9a1b2af0fd156b77 -> 3c0017d2bb29063ce7b7020fb699526b
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PanelView.cs: 6691c2d35e5e4bfaf63d481d72d2130a -> d2deaee66b7a61da10ffeed4fd8cb200
+  custom:scripting/precompiled-assembly-types:TutorialWizardLoadingScreen: d5c76738182e7c2b547cbb5408cc4cdc -> 
+  custom:scripting/monoscript/fileName/bl_ImageClamp.cs: 587c743b137fd7d5f5bf765863c3322a -> c06a78ffa74b971e9366656b1dae85f3
+  custom:scripting/monoscript/fileName/DNP_DemoManager.cs: b5bb920d978f8d0fb4f5a5c3f261c613 -> ea5eeb72aa92b8b1e2610ca2efb70209
+  custom:scripting/monoscript/fileName/DNP_InputHandler.cs: b507d4b257fb7fc4f569307364e5ce00 -> e4ea80271f12348a4fa365687f27082d
+  custom:scripting/monoscript/fileName/bl_UIGradient.cs: 2e4dca0805e6c20489e3ee07db056ec0 -> 8da678a508be4b686c3315d821b7855b
+  custom:scripting/monoscript/fileName/ARPGFXLoopScript.cs: 4f353f43524d3f6dca3816ab6bc94742 -> 8c3dd5fbeb9625fdbcaffed72decd3b6
+  custom:scripting/monoscript/fileName/bl_SceneLoaderInfo.cs: 4877b560c77f5afe44b4458405291a86 -> 7ff87134f31ae31d21fcbffbec5ae144
+  custom:scripting/monoscript/fileName/bl_SceneLoader.cs: 7f7cd68669d99e147fb8d6040cf775f8 -> 76b7b215df6c61d919eaa8a7c4dbc329
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DNPEditorInternal.cs: 1c2cdc315b9b84be92aebe5b02ea245c -> 9108aeed300cd41b24d3ea4bc537bed3
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CombinationSettings.cs: d10aebf6fd9b55d01bd04522b0f83f5a -> 7e63b6ab259ac2049c4e986e537f85bb
+  custom:scripting/monoscript/fileName/LoadingScreenDocumentation.cs: 463abbf67759717cd3517cbc9551749d -> 
+  custom:scripting/monoscript/fileName/PanelControl.cs: a3041f590ce3bb9956463a52f741e4df -> 02e56fdb1f44a3296f5290b5dcaa9121
+  custom:scripting/monoscript/fileName/DNP_ExampleMesh.cs: fc1e84d70ce64088fee38468ddb6e5ce -> 869e4992733773b17cdf929cffbcd6a5
+  custom:scripting/monoscript/fileName/PushSettings.cs: 2f278ca02127ee5501da4224a1ae2222 -> 8aeebd0dcd30fa8b6ef8048414a134c7
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFade.cs: 3001198f8adfe30551bc33966a1050ea -> dd6a4c32ec9bcc3bde3a207aa09ab84d
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DamageNumberMesh.cs: 23b0282aba50567ffd2abced270ffe0e -> 529c0081cc6b6c158e05b6dfd8ca01f2
+  custom:scripting/monoscript/fileName/ARPGFXPortalScript.cs: b4a4a68ae5237f07096de92b0cd9c9d4 -> 11021e7c830579b1311b26e323de9031
+  custom:scripting/monoscript/fileName/ColorByNumberSettings.cs: 8b194ab4a1523892ba2bb606a7c6c999 -> a4599ce1f72bdbd5697a086403f3305c
+  custom:scripting/monoscript/fileName/HS_CallBackParent.cs: b6647d0f0b56c1bc60d9640c2e655bc5 -> 
+  custom:scripting/monoscript/fileName/ARPGFXRotation.cs: 1d49f9bceb690bff41abc51871ab8b09 -> e19f4a8ff086093cc3712139274de6df
+  custom:scripting/monoscript/fileName/DNP_ExampleGUI.cs: 065647b2ea14084d1719b99cfdc8890e -> 64e813cc03ed25b77df0d396e01bbe83
+  custom:scripting/monoscript/fileName/ARPGFXCycler.cs: 75b91dfaed0e9a0490af3f90e8115ec2 -> 485b6369de83fbe33c4983dd10d31981
+  custom:scripting/monoscript/fileName/DistanceScalingSettings.cs: 6f87fe3ba8867ec98ca7c41b9e68dd2c -> 6ab5e82d318e682037666f7ac6fb7dbb
+  custom:scripting/monoscript/fileName/bl_SceneLoaderEditor.cs: ca1a0e7f63caa7bf6436dc59a2dfe445 -> 
+  custom:scripting/monoscript/fileName/DNP_PrefabSettings.cs: 558ae52f0b21ac0d1542ab5ce697fc67 -> 38e982960e677fce7fc395f16e0fc3b2
+  custom:scripting/monoscript/fileName/DigitSettings.cs: 5b2a66912cae0506aa8d8f4535ed094d -> 878d6d96d756fd1993dce4e87e4d4d85
+  custom:scripting/monoscript/fileName/DNPPresetEditor.cs: 74f95645f08456e13e8a0a30d869bce9 -> 4edd06621af802c181805de5b6bbaebe
+  custom:scripting/monoscript/fileName/HS_ProjectileMover.cs: 63cbfee199aa2a1d3b2d378ddc844cba -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScaleByNumberSettings.cs: c9161626d9a52da86105765a9bd1c3ad -> fe614b46e2562a73939f0c6902691b47
+  custom:scripting/monoscript/fileName/bl_LoadingScreenStartUp.cs: ea306597acc8300ccf45bb80a2996ffb -> 
+  custom:scripting/monoscript/fileName/DNP_GUI.cs: aad4f934d18fad1aee0c11370aabc781 -> acbf0381e09ca85db47ffd1fa807589d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFlicker.cs: 22e05582cef3dd6d407c3c16c690b69e -> ae72a585a3c79bcd4010f297b9c91065
+  custom:scripting/monoscript/fileName/DamageNumber.cs: 36af1f65a0962ce517bea0c83ba40261 -> 066120db5d26f7ab2d2123f2c6b86317
+  custom:scripting/monoscript/fileName/DNP_Camera.cs: 620a92f9900dc3c37cb556b65bc86aca -> f9739f8b6c1e2bada480be31273abad9
+  custom:scripting/monoscript/fileName/bl_LoadingScreenExample.cs: eea0eedf7d80714aeeed2ce11885680c -> 194d104fed21b546d6dd4458775c7c56
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManagerEditor.cs: 2c2130d24b4611b87c034f9da5d9800a -> 
+  custom:scripting/monoscript/fileName/DNP_FallingCube.cs: 1fd7671d79dc1789595f66788ce5c38f -> 33a1664d587aef40fe3ba969a9e4eb0f
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManager.cs: 6523eaef50d1bfdc4e8308942d2a3624 -> 596baee82b2812b166e437a4015ad647
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DNP_CubeHighlight.cs: dcd18b1c118bab8881d9eb88b1997497 -> 7c7a7609e750ed81f54059f358983357
+  custom:scripting/monoscript/fileName/DNP_CursorHint.cs: 5ad5cb9325bb4b128b488ed541bd7407 -> 66dcf2b7b5d6c905d05efec071adca5c
+  custom:scripting/monoscript/fileName/LerpSettings.cs: b112700015cb67413c7e4ed405570d65 -> c75356c0fd2141a282bc870417bfa856
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 577cc7c46dcf4ada5d537aea83b27441 -> 
+  custom:scripting/monoscript/fileName/bl_TriggerLoad.cs: 57cc4106e57ed12828900470bfc59ca9 -> 6588ad6a18b2539b00efe29b864bbaed
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1945bb780ce5ebf8fd3bc83f859517ee -> b5d8401a66e68c5d89f9219e0054292c
+  custom:scripting/monoscript/fileName/VelocitySettings.cs: 86906257e49e77512b5fc858cc429c07 -> 6703e3991e9f974727cd8eb5b1c752f1
+  custom:scripting/monoscript/fileName/DamageNumberEditor.cs: bb82a25961a9dc04e2d36c6f433ca267 -> 7a64b3b9b91604a58235fd542aea7f37
+========================================================================
+Received Prepare
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Caller must complete domain reload
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.075 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.258 seconds
+Domain Reload Profiling: 10331ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (1813ms)
+		LoadAssemblies (1897ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (8259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4018 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (478.0 KB). Loaded Objects now: 4507.
+Memory consumption went from 147.0 MB to 146.6 MB.
+Total: 3.719300 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.311900 ms MarkObjects: 2.786800 ms  DeleteObjects: 0.260100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 24ed384ba7fd109f3db91f0aadc14bbb -> f56edea2515deb12d4a7fa41e321940a
+  custom:scripting/monoscript/fileName/DamageNumberGUI.cs: ee565ded0f4c5a890aa4db4fd9adbdb1 -> 03de81cccbd511cc3761a9db3befbb47
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TextSettings.cs: e9611e745b4b603e699c8e63ece2893f -> c8a71f3073f51f9bd03527012c76cb7d
+  custom:scripting/monoscript/fileName/CollisionSettings.cs: 8dc41e1ccaf820ef583b3cf94dad2937 -> 32fbe4ffec26453486a952e907c59934
+  custom:scripting/monoscript/fileName/DNP_CubeSpawner.cs: 6190fd229d387ede27d55f1323168a37 -> 8f6150da43ac5f85f232070e2ac156ab
+  custom:scripting/monoscript/fileName/DNP_UIArea.cs: 636b93e2156ff801eae0fa5992a06c6c -> 85a0c0965d25efefc1da18e871f0c94c
+  custom:scripting/monoscript/fileName/bl_TransformRotator.cs: 203b5af65fddaf3db9bf82fff4a8e7de -> a9740e5c4b66ee2442b060bb75249c44
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/HS_DemoShooting.cs: 483bd5ad5ae39aff55b68a7a7f3f6e0b -> 
+  custom:scripting/monoscript/fileName/bl_ButtonSceneLoad.cs: 91d8247966c7b24367554f46b020ca57 -> a67ff49570ae8d4b915bfb8b782fa39a
+  custom:scripting/monoscript/fileName/DestructionSettings.cs: 8a25d309f10d5c731fa78d0956433654 -> 51883e7e2a31519f68e309f5a1fd080d
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DNP_Crosshair.cs: dc667145918e5361c0e8f535ced51b50 -> 191c4f9a05e058993ea5b22eef50c493
+  custom:scripting/monoscript/fileName/bl_SceneLoaderUtils.cs: a53c743ec2e29407a4f3ed30e1eeb5c8 -> 83f0bb401289771b337ca22ddd9f392e
+  custom:scripting/monoscript/fileName/bl_RawImageOffset.cs: 55d092ca669693e90b3227df17d229dc -> b2412f0feaa3c72712046d318cfd4717
+  custom:scripting/monoscript/fileName/bl_DemoLoadedScene.cs: 8fc3931d6b8b8e6d42bba572fd7d0c49 -> f1715544fc7e8f2ad9db3d12d921d68f
+  custom:scripting/monoscript/fileName/DNPUpdater.cs: a8dd34121a7103416ae6be78dbf07f71 -> 3d99cecd045bd7c9e7be17e2e512291c
+  custom:scripting/monoscript/fileName/DNP_Target.cs: ee40440532cc3a9a727fc331f2ae453d -> 3235a729ccc9a45727eef7d81a30dba5
+  custom:scripting/monoscript/fileName/DNPPreset.cs: d44bd601a7519ebf0b484cbc96d6252d -> 0d65fe10624947b0d631831e0b06e3a8
+  custom:scripting/monoscript/fileName/FollowSettings.cs: 93a61f1e42fc416e94ab80d1e07501b5 -> 5ac6c96ba581eba0beed326149443861
+  custom:scripting/monoscript/fileName/bl_SceneLoaderCanvas.cs: 6a6cf81fe9104b531ed84e54a65210af -> 2e8e96bcc502da4d6aef7c9d81d565fa
+  custom:scripting/monoscript/fileName/ShakeSettings.cs: 6592eacda0821fac6eab746377640715 -> 06c4df9b890f34034e9685d2d18b23da
+  custom:scripting/monoscript/fileName/DNP_SineFadeText.cs: 9c28237f618db67de5c36992c19bbc6c -> 4f1c30efdc01262c09a7c923a046aef6
+  custom:scripting/monoscript/fileName/bl_LoadingScreenWelcome.cs: 57dbf45333b71d5835bee21d8b315f6f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DNP_UIMove.cs: 76ba6cd1abbc0fe94c269c0d231231b9 -> 79af381de03abc4a6157219838577d97
+  custom:scripting/monoscript/fileName/DNP_2DDemo.cs: 1224352ec717f3582b7e57f95ec9ccab -> fe0aeba2afe2377ca7cd8e96c3d82815
+  custom:scripting/monoscript/fileName/ARPGSceneSelect.cs: a416f572976ae211881236ea65cf9f93 -> 29563b36f1989aeea48e5ff7e02e9d21
+  custom:scripting/monoscript/fileName/bl_LoadingScreenUI.cs: 6a5b989fe1b95fdf9a1b2af0fd156b77 -> 3c0017d2bb29063ce7b7020fb699526b
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PanelView.cs: 6691c2d35e5e4bfaf63d481d72d2130a -> d2deaee66b7a61da10ffeed4fd8cb200
+  custom:scripting/precompiled-assembly-types:TutorialWizardLoadingScreen: d5c76738182e7c2b547cbb5408cc4cdc -> 
+  custom:scripting/monoscript/fileName/bl_ImageClamp.cs: 587c743b137fd7d5f5bf765863c3322a -> c06a78ffa74b971e9366656b1dae85f3
+  custom:scripting/monoscript/fileName/DNP_DemoManager.cs: b5bb920d978f8d0fb4f5a5c3f261c613 -> ea5eeb72aa92b8b1e2610ca2efb70209
+  custom:scripting/monoscript/fileName/DNP_InputHandler.cs: b507d4b257fb7fc4f569307364e5ce00 -> e4ea80271f12348a4fa365687f27082d
+  custom:scripting/monoscript/fileName/bl_UIGradient.cs: 2e4dca0805e6c20489e3ee07db056ec0 -> 8da678a508be4b686c3315d821b7855b
+  custom:scripting/monoscript/fileName/ARPGFXLoopScript.cs: 4f353f43524d3f6dca3816ab6bc94742 -> 8c3dd5fbeb9625fdbcaffed72decd3b6
+  custom:scripting/monoscript/fileName/bl_SceneLoaderInfo.cs: 4877b560c77f5afe44b4458405291a86 -> 7ff87134f31ae31d21fcbffbec5ae144
+  custom:scripting/monoscript/fileName/bl_SceneLoader.cs: 7f7cd68669d99e147fb8d6040cf775f8 -> 76b7b215df6c61d919eaa8a7c4dbc329
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DNPEditorInternal.cs: 1c2cdc315b9b84be92aebe5b02ea245c -> 9108aeed300cd41b24d3ea4bc537bed3
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CombinationSettings.cs: d10aebf6fd9b55d01bd04522b0f83f5a -> 7e63b6ab259ac2049c4e986e537f85bb
+  custom:scripting/monoscript/fileName/LoadingScreenDocumentation.cs: 463abbf67759717cd3517cbc9551749d -> 
+  custom:scripting/monoscript/fileName/PanelControl.cs: a3041f590ce3bb9956463a52f741e4df -> 02e56fdb1f44a3296f5290b5dcaa9121
+  custom:scripting/monoscript/fileName/DNP_ExampleMesh.cs: fc1e84d70ce64088fee38468ddb6e5ce -> 869e4992733773b17cdf929cffbcd6a5
+  custom:scripting/monoscript/fileName/PushSettings.cs: 2f278ca02127ee5501da4224a1ae2222 -> 8aeebd0dcd30fa8b6ef8048414a134c7
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFade.cs: 3001198f8adfe30551bc33966a1050ea -> dd6a4c32ec9bcc3bde3a207aa09ab84d
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DamageNumberMesh.cs: 23b0282aba50567ffd2abced270ffe0e -> 529c0081cc6b6c158e05b6dfd8ca01f2
+  custom:scripting/monoscript/fileName/ARPGFXPortalScript.cs: b4a4a68ae5237f07096de92b0cd9c9d4 -> 11021e7c830579b1311b26e323de9031
+  custom:scripting/monoscript/fileName/ColorByNumberSettings.cs: 8b194ab4a1523892ba2bb606a7c6c999 -> a4599ce1f72bdbd5697a086403f3305c
+  custom:scripting/monoscript/fileName/HS_CallBackParent.cs: b6647d0f0b56c1bc60d9640c2e655bc5 -> 
+  custom:scripting/monoscript/fileName/ARPGFXRotation.cs: 1d49f9bceb690bff41abc51871ab8b09 -> e19f4a8ff086093cc3712139274de6df
+  custom:scripting/monoscript/fileName/DNP_ExampleGUI.cs: 065647b2ea14084d1719b99cfdc8890e -> 64e813cc03ed25b77df0d396e01bbe83
+  custom:scripting/monoscript/fileName/ARPGFXCycler.cs: 75b91dfaed0e9a0490af3f90e8115ec2 -> 485b6369de83fbe33c4983dd10d31981
+  custom:scripting/monoscript/fileName/DistanceScalingSettings.cs: 6f87fe3ba8867ec98ca7c41b9e68dd2c -> 6ab5e82d318e682037666f7ac6fb7dbb
+  custom:scripting/monoscript/fileName/bl_SceneLoaderEditor.cs: ca1a0e7f63caa7bf6436dc59a2dfe445 -> 
+  custom:scripting/monoscript/fileName/DNP_PrefabSettings.cs: 558ae52f0b21ac0d1542ab5ce697fc67 -> 38e982960e677fce7fc395f16e0fc3b2
+  custom:scripting/monoscript/fileName/DigitSettings.cs: 5b2a66912cae0506aa8d8f4535ed094d -> 878d6d96d756fd1993dce4e87e4d4d85
+  custom:scripting/monoscript/fileName/DNPPresetEditor.cs: 74f95645f08456e13e8a0a30d869bce9 -> 4edd06621af802c181805de5b6bbaebe
+  custom:scripting/monoscript/fileName/HS_ProjectileMover.cs: 63cbfee199aa2a1d3b2d378ddc844cba -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScaleByNumberSettings.cs: c9161626d9a52da86105765a9bd1c3ad -> fe614b46e2562a73939f0c6902691b47
+  custom:scripting/monoscript/fileName/bl_LoadingScreenStartUp.cs: ea306597acc8300ccf45bb80a2996ffb -> 
+  custom:scripting/monoscript/fileName/DNP_GUI.cs: aad4f934d18fad1aee0c11370aabc781 -> acbf0381e09ca85db47ffd1fa807589d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFlicker.cs: 22e05582cef3dd6d407c3c16c690b69e -> ae72a585a3c79bcd4010f297b9c91065
+  custom:scripting/monoscript/fileName/DamageNumber.cs: 36af1f65a0962ce517bea0c83ba40261 -> 066120db5d26f7ab2d2123f2c6b86317
+  custom:scripting/monoscript/fileName/DNP_Camera.cs: 620a92f9900dc3c37cb556b65bc86aca -> f9739f8b6c1e2bada480be31273abad9
+  custom:scripting/monoscript/fileName/bl_LoadingScreenExample.cs: eea0eedf7d80714aeeed2ce11885680c -> 194d104fed21b546d6dd4458775c7c56
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManagerEditor.cs: 2c2130d24b4611b87c034f9da5d9800a -> 
+  custom:scripting/monoscript/fileName/DNP_FallingCube.cs: 1fd7671d79dc1789595f66788ce5c38f -> 33a1664d587aef40fe3ba969a9e4eb0f
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManager.cs: 6523eaef50d1bfdc4e8308942d2a3624 -> 596baee82b2812b166e437a4015ad647
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DNP_CubeHighlight.cs: dcd18b1c118bab8881d9eb88b1997497 -> 7c7a7609e750ed81f54059f358983357
+  custom:scripting/monoscript/fileName/DNP_CursorHint.cs: 5ad5cb9325bb4b128b488ed541bd7407 -> 66dcf2b7b5d6c905d05efec071adca5c
+  custom:scripting/monoscript/fileName/LerpSettings.cs: b112700015cb67413c7e4ed405570d65 -> c75356c0fd2141a282bc870417bfa856
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 577cc7c46dcf4ada5d537aea83b27441 -> 
+  custom:scripting/monoscript/fileName/bl_TriggerLoad.cs: 57cc4106e57ed12828900470bfc59ca9 -> 6588ad6a18b2539b00efe29b864bbaed
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1945bb780ce5ebf8fd3bc83f859517ee -> b5d8401a66e68c5d89f9219e0054292c
+  custom:scripting/monoscript/fileName/VelocitySettings.cs: 86906257e49e77512b5fc858cc429c07 -> 6703e3991e9f974727cd8eb5b1c752f1
+  custom:scripting/monoscript/fileName/DamageNumberEditor.cs: bb82a25961a9dc04e2d36c6f433ca267 -> 7a64b3b9b91604a58235fd542aea7f37
+========================================================================
+Received Prepare
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Caller must complete domain reload
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.111 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+Assembly with name 'LoadingScreen.Misc' already exists (Assets/5 Resources/Loading Screen/Content/Scripts/Runtime/Misc/LoadingScreen.Misc.asmdef)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.743 seconds
+Domain Reload Profiling: 14852ms
+	BeginReloadAssembly (368ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (58ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (2648ms)
+		LoadAssemblies (2694ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (11744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (510ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.0 MB). Loaded Objects now: 4520.
+Memory consumption went from 148.9 MB to 147.9 MB.
+Total: 7.492600 ms (FindLiveObjects: 0.486300 ms CreateObjectMapping: 0.539500 ms MarkObjects: 5.657600 ms  DeleteObjects: 0.806900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UIParticleSystem.cs: 24ed384ba7fd109f3db91f0aadc14bbb -> f56edea2515deb12d4a7fa41e321940a
+  custom:scripting/monoscript/fileName/DamageNumberGUI.cs: ee565ded0f4c5a890aa4db4fd9adbdb1 -> 03de81cccbd511cc3761a9db3befbb47
+  custom:scripting/monoscript/fileName/ParticleSystemController.cs: 11736399c9bbd8b427c50134f214156a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TextSettings.cs: e9611e745b4b603e699c8e63ece2893f -> c8a71f3073f51f9bd03527012c76cb7d
+  custom:scripting/monoscript/fileName/CollisionSettings.cs: 8dc41e1ccaf820ef583b3cf94dad2937 -> 32fbe4ffec26453486a952e907c59934
+  custom:scripting/monoscript/fileName/DNP_CubeSpawner.cs: 6190fd229d387ede27d55f1323168a37 -> 8f6150da43ac5f85f232070e2ac156ab
+  custom:scripting/monoscript/fileName/DNP_UIArea.cs: 636b93e2156ff801eae0fa5992a06c6c -> 85a0c0965d25efefc1da18e871f0c94c
+  custom:scripting/monoscript/fileName/bl_TransformRotator.cs: 203b5af65fddaf3db9bf82fff4a8e7de -> a9740e5c4b66ee2442b060bb75249c44
+  custom:scripting/monoscript/fileName/ProjectileMoveScript.cs: 24d7c5d269caf39147fdfcab39851628 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/HS_DemoShooting.cs: 483bd5ad5ae39aff55b68a7a7f3f6e0b -> 
+  custom:scripting/monoscript/fileName/bl_ButtonSceneLoad.cs: 91d8247966c7b24367554f46b020ca57 -> a67ff49570ae8d4b915bfb8b782fa39a
+  custom:scripting/monoscript/fileName/DestructionSettings.cs: 8a25d309f10d5c731fa78d0956433654 -> 51883e7e2a31519f68e309f5a1fd080d
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DNP_Crosshair.cs: dc667145918e5361c0e8f535ced51b50 -> 191c4f9a05e058993ea5b22eef50c493
+  custom:scripting/monoscript/fileName/bl_SceneLoaderUtils.cs: a53c743ec2e29407a4f3ed30e1eeb5c8 -> 83f0bb401289771b337ca22ddd9f392e
+  custom:scripting/monoscript/fileName/bl_RawImageOffset.cs: 55d092ca669693e90b3227df17d229dc -> b2412f0feaa3c72712046d318cfd4717
+  custom:scripting/monoscript/fileName/bl_DemoLoadedScene.cs: 8fc3931d6b8b8e6d42bba572fd7d0c49 -> f1715544fc7e8f2ad9db3d12d921d68f
+  custom:scripting/monoscript/fileName/DNPUpdater.cs: a8dd34121a7103416ae6be78dbf07f71 -> 3d99cecd045bd7c9e7be17e2e512291c
+  custom:scripting/monoscript/fileName/DNP_Target.cs: ee40440532cc3a9a727fc331f2ae453d -> 3235a729ccc9a45727eef7d81a30dba5
+  custom:scripting/monoscript/fileName/DNPPreset.cs: d44bd601a7519ebf0b484cbc96d6252d -> 0d65fe10624947b0d631831e0b06e3a8
+  custom:scripting/monoscript/fileName/FollowSettings.cs: 93a61f1e42fc416e94ab80d1e07501b5 -> 5ac6c96ba581eba0beed326149443861
+  custom:scripting/monoscript/fileName/bl_SceneLoaderCanvas.cs: 6a6cf81fe9104b531ed84e54a65210af -> 2e8e96bcc502da4d6aef7c9d81d565fa
+  custom:scripting/monoscript/fileName/ShakeSettings.cs: 6592eacda0821fac6eab746377640715 -> 06c4df9b890f34034e9685d2d18b23da
+  custom:scripting/monoscript/fileName/DNP_SineFadeText.cs: 9c28237f618db67de5c36992c19bbc6c -> 4f1c30efdc01262c09a7c923a046aef6
+  custom:scripting/monoscript/fileName/bl_LoadingScreenWelcome.cs: 57dbf45333b71d5835bee21d8b315f6f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/DNP_UIMove.cs: 76ba6cd1abbc0fe94c269c0d231231b9 -> 79af381de03abc4a6157219838577d97
+  custom:scripting/monoscript/fileName/DNP_2DDemo.cs: 1224352ec717f3582b7e57f95ec9ccab -> fe0aeba2afe2377ca7cd8e96c3d82815
+  custom:scripting/monoscript/fileName/ARPGSceneSelect.cs: a416f572976ae211881236ea65cf9f93 -> 29563b36f1989aeea48e5ff7e02e9d21
+  custom:scripting/monoscript/fileName/bl_LoadingScreenUI.cs: 6a5b989fe1b95fdf9a1b2af0fd156b77 -> 3c0017d2bb29063ce7b7020fb699526b
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PanelView.cs: 6691c2d35e5e4bfaf63d481d72d2130a -> d2deaee66b7a61da10ffeed4fd8cb200
+  custom:scripting/precompiled-assembly-types:TutorialWizardLoadingScreen: d5c76738182e7c2b547cbb5408cc4cdc -> 
+  custom:scripting/monoscript/fileName/bl_ImageClamp.cs: 587c743b137fd7d5f5bf765863c3322a -> c06a78ffa74b971e9366656b1dae85f3
+  custom:scripting/monoscript/fileName/ParticleSystemControllerEditor.cs: 879cf83ee5f371dd46af28e6e8d5d035 -> 
+  custom:scripting/monoscript/fileName/DNP_DemoManager.cs: b5bb920d978f8d0fb4f5a5c3f261c613 -> ea5eeb72aa92b8b1e2610ca2efb70209
+  custom:scripting/monoscript/fileName/DNP_InputHandler.cs: b507d4b257fb7fc4f569307364e5ce00 -> e4ea80271f12348a4fa365687f27082d
+  custom:scripting/monoscript/fileName/bl_UIGradient.cs: 2e4dca0805e6c20489e3ee07db056ec0 -> 8da678a508be4b686c3315d821b7855b
+  custom:scripting/monoscript/fileName/ARPGFXLoopScript.cs: 4f353f43524d3f6dca3816ab6bc94742 -> 8c3dd5fbeb9625fdbcaffed72decd3b6
+  custom:scripting/monoscript/fileName/bl_SceneLoaderInfo.cs: 4877b560c77f5afe44b4458405291a86 -> 7ff87134f31ae31d21fcbffbec5ae144
+  custom:scripting/monoscript/fileName/bl_SceneLoader.cs: 7f7cd68669d99e147fb8d6040cf775f8 -> 76b7b215df6c61d919eaa8a7c4dbc329
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/DNPEditorInternal.cs: 1c2cdc315b9b84be92aebe5b02ea245c -> 9108aeed300cd41b24d3ea4bc537bed3
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/CombinationSettings.cs: d10aebf6fd9b55d01bd04522b0f83f5a -> 7e63b6ab259ac2049c4e986e537f85bb
+  custom:scripting/monoscript/fileName/LoadingScreenDocumentation.cs: 463abbf67759717cd3517cbc9551749d -> 
+  custom:scripting/monoscript/fileName/PanelControl.cs: a3041f590ce3bb9956463a52f741e4df -> 02e56fdb1f44a3296f5290b5dcaa9121
+  custom:scripting/monoscript/fileName/DNP_ExampleMesh.cs: fc1e84d70ce64088fee38468ddb6e5ce -> 869e4992733773b17cdf929cffbcd6a5
+  custom:scripting/monoscript/fileName/PushSettings.cs: 2f278ca02127ee5501da4224a1ae2222 -> 8aeebd0dcd30fa8b6ef8048414a134c7
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFade.cs: 3001198f8adfe30551bc33966a1050ea -> dd6a4c32ec9bcc3bde3a207aa09ab84d
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DamageNumberMesh.cs: 23b0282aba50567ffd2abced270ffe0e -> 529c0081cc6b6c158e05b6dfd8ca01f2
+  custom:scripting/monoscript/fileName/ARPGFXPortalScript.cs: b4a4a68ae5237f07096de92b0cd9c9d4 -> 11021e7c830579b1311b26e323de9031
+  custom:scripting/monoscript/fileName/ColorByNumberSettings.cs: 8b194ab4a1523892ba2bb606a7c6c999 -> a4599ce1f72bdbd5697a086403f3305c
+  custom:scripting/monoscript/fileName/HS_CallBackParent.cs: b6647d0f0b56c1bc60d9640c2e655bc5 -> 
+  custom:scripting/monoscript/fileName/ARPGFXRotation.cs: 1d49f9bceb690bff41abc51871ab8b09 -> e19f4a8ff086093cc3712139274de6df
+  custom:scripting/monoscript/fileName/DNP_ExampleGUI.cs: 065647b2ea14084d1719b99cfdc8890e -> 64e813cc03ed25b77df0d396e01bbe83
+  custom:scripting/monoscript/fileName/ARPGFXCycler.cs: 75b91dfaed0e9a0490af3f90e8115ec2 -> 485b6369de83fbe33c4983dd10d31981
+  custom:scripting/monoscript/fileName/DistanceScalingSettings.cs: 6f87fe3ba8867ec98ca7c41b9e68dd2c -> 6ab5e82d318e682037666f7ac6fb7dbb
+  custom:scripting/monoscript/fileName/bl_SceneLoaderEditor.cs: ca1a0e7f63caa7bf6436dc59a2dfe445 -> 
+  custom:scripting/monoscript/fileName/DNP_PrefabSettings.cs: 558ae52f0b21ac0d1542ab5ce697fc67 -> 38e982960e677fce7fc395f16e0fc3b2
+  custom:scripting/monoscript/fileName/DigitSettings.cs: 5b2a66912cae0506aa8d8f4535ed094d -> 878d6d96d756fd1993dce4e87e4d4d85
+  custom:scripting/monoscript/fileName/DNPPresetEditor.cs: 74f95645f08456e13e8a0a30d869bce9 -> 4edd06621af802c181805de5b6bbaebe
+  custom:scripting/monoscript/fileName/Serializables.cs: 88199d811dee86bd3d5199094c68fff4 -> 
+  custom:scripting/monoscript/fileName/SaveParticleSystemScript.cs: 2063b1b3998909fedaafc33082f13d41 -> 
+  custom:scripting/monoscript/fileName/HS_ProjectileMover.cs: 63cbfee199aa2a1d3b2d378ddc844cba -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ScaleByNumberSettings.cs: c9161626d9a52da86105765a9bd1c3ad -> fe614b46e2562a73939f0c6902691b47
+  custom:scripting/monoscript/fileName/CameraShakeSimpleScript.cs: 9e6cf9d2f5868197e963012155f99f5b -> 
+  custom:scripting/monoscript/fileName/bl_LoadingScreenStartUp.cs: ea306597acc8300ccf45bb80a2996ffb -> 
+  custom:scripting/monoscript/fileName/DNP_GUI.cs: aad4f934d18fad1aee0c11370aabc781 -> acbf0381e09ca85db47ffd1fa807589d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARPGFXLightFlicker.cs: 22e05582cef3dd6d407c3c16c690b69e -> ae72a585a3c79bcd4010f297b9c91065
+  custom:scripting/monoscript/fileName/DamageNumber.cs: 36af1f65a0962ce517bea0c83ba40261 -> 066120db5d26f7ab2d2123f2c6b86317
+  custom:scripting/monoscript/fileName/DNP_Camera.cs: 620a92f9900dc3c37cb556b65bc86aca -> f9739f8b6c1e2bada480be31273abad9
+  custom:scripting/monoscript/fileName/RotateToMouseScript.cs: 4f41f2796a41958d10418df337ef13c9 -> 
+  custom:scripting/monoscript/fileName/bl_LoadingScreenExample.cs: eea0eedf7d80714aeeed2ce11885680c -> 194d104fed21b546d6dd4458775c7c56
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManagerEditor.cs: 2c2130d24b4611b87c034f9da5d9800a -> 
+  custom:scripting/monoscript/fileName/SpawnProjectilesScript.cs: 1a76547e2609106d837c5a5ce55f4255 -> 
+  custom:scripting/monoscript/fileName/DNP_FallingCube.cs: 1fd7671d79dc1789595f66788ce5c38f -> 33a1664d587aef40fe3ba969a9e4eb0f
+  custom:scripting/monoscript/fileName/bl_SceneLoaderManager.cs: 6523eaef50d1bfdc4e8308942d2a3624 -> 596baee82b2812b166e437a4015ad647
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DNP_CubeHighlight.cs: dcd18b1c118bab8881d9eb88b1997497 -> 7c7a7609e750ed81f54059f358983357
+  custom:scripting/monoscript/fileName/DNP_CursorHint.cs: 5ad5cb9325bb4b128b488ed541bd7407 -> 66dcf2b7b5d6c905d05efec071adca5c
+  custom:scripting/monoscript/fileName/LerpSettings.cs: b112700015cb67413c7e4ed405570d65 -> c75356c0fd2141a282bc870417bfa856
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 577cc7c46dcf4ada5d537aea83b27441 -> 
+  custom:scripting/monoscript/fileName/bl_TriggerLoad.cs: 57cc4106e57ed12828900470bfc59ca9 -> 6588ad6a18b2539b00efe29b864bbaed
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ebb98eb60c7d1a864698ed9c11a1becb -> b5d8401a66e68c5d89f9219e0054292c
+  custom:scripting/monoscript/fileName/VelocitySettings.cs: 86906257e49e77512b5fc858cc429c07 -> 6703e3991e9f974727cd8eb5b1c752f1
+  custom:scripting/monoscript/fileName/DamageNumberEditor.cs: bb82a25961a9dc04e2d36c6f433ca267 -> 7a64b3b9b91604a58235fd542aea7f37
